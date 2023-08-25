@@ -1,0 +1,79 @@
+.app__header {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.app__headerContainer {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  color: #fff;
+  gap: 20px;
+}
+
+.app__headerContainer > div {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.app__headerBrand {
+  color: white;
+  font-size: 2rem;
+}
+
+.app__headerBrand span {
+  font-weight: 800;
+}
+
+.app__headerBrand span:first-of-type {
+  color: var(--color-primary);
+}
+
+.app__headerSearch {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+}
+
+.app__headerSearch input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px 8px;
+  font-size: 1rem;
+  color: white;
+  caret-color: var(--color-primary);
+  background-color: transparent;
+}
+
+.app__headerSearch button {
+  display: grid;
+  border: none;
+  place-items: center;
+  padding: 8px;
+  background-color: transparent;
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.app__headerSearch button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.app__headerNav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  align-items: center;
+}

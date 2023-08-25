@@ -1,0 +1,42 @@
+.comment {
+  padding: 25px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.comment__header__user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.comment__header__user h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+.comment__header__user span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.comment__body {
+  padding: 0 10px;
+}
+
+.comment__body p {
+  font-weight: 300;
+  font-size: 0.97rem;
+  color: var(--color-text);
+}
+
+.comment__header__actions {
+  gap: 3px;
+  display: flex;
+  align-items: center;
+}
